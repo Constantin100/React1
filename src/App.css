@@ -2,7 +2,7 @@
   margin: 0 ;
   display: grid;
 
-  width: 1000 px;
+  width: 100%;
 
   grid-template-areas: 
   "h h"
@@ -10,10 +10,10 @@
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+  /*grid-gap: 10px;*/
 }
 
-.app-wrapper-conetent {
+.app-wrapper-content {
   grid-area: c;
   background-color: cornflowerblue;
 }
